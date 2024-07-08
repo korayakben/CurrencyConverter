@@ -1,0 +1,65 @@
+.main-div {
+    background-color: #fff;
+    height: 450px;
+    margin: 12% auto;
+    border-radius: 7px;
+    width: 45%;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.form-group label {
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+#enterAmount {
+    width: 85%;
+    margin-left: 4%;
+}
+
+.currency-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.currency-select select {
+    width: 100%;
+}
+
+.currency-select .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.calculate button {
+
+    width: 50%;
+    margin: 10% 22%;
+    transition: 1s;
+}
+
+.calculate button:hover {
+    transition: 1s;
+    background-color: black;
+    border-color: black;
+    color: rgb(185, 189, 188);
+}
+
+#exchange-button {
+    background-color: #fff;
+    border-color: #fff;
+    border-style: none;
+}
