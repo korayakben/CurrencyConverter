@@ -63,3 +63,36 @@
     border-color: #fff;
     border-style: none;
 }
+
+@media (max-width:850px) and (min-width:540px){
+    .main-div{
+        width: 70%;
+        position: relative;
+        top:40px;
+    }
+}
+
+@media (max-width:540px) and (min-width:460px){
+    .main-div{
+        width: 70%;
+        position: relative;
+        top:60px;
+    }
+}
+
+@media (max-width:460px) and (min-width:410px){
+    .main-div{
+        width: 80%;
+        position: relative;
+        top:60px;
+    }
+}
+
+@media (max-width:410px) {
+    .main-div{
+        width:100%;
+        position: relative;
+        top:70px;
+    }
+}
+
